@@ -9,7 +9,8 @@
       <option name="NUM_POSTFIXES" value="" />
     </options>
     <keywords keywords="ADD;CMD;ENTRYPOINT;ENV;EXPOSE;ONBUILD;RUN;USER;VOLUME;WORKDIR" ignore_case="false" />
-    <keywords2 keywords="apt-get;cd;cp;curl;echo;rsync;wget" />
+    <keywords2 keywords="add-apt-repository;addgroup;adduser;apt-get;cd;chmod;chown;cp;curl;dpkg;dpkg-divert;echo;ln;mkdir;rsync;sed;tar;wget" />
+    <keywords3 keywords="install;update;upgrade" />
   </highlighting>
   <extensionMap>
     <mapping pattern="Dockerfile" />
