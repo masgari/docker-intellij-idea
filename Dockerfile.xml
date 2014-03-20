@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filetype binary="false" default_extension="" description="Docker build file" name="Dockerfile">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="#" />
+      <option name="COMMENT_START" value="" />
+      <option name="COMMENT_END" value="" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+    </options>
+    <keywords keywords="ADD;CMD;ENTRYPOINT;ENV;EXPOSE;ONBUILD;RUN;USER;VOLUME;WORKDIR" ignore_case="false" />
+    <keywords2 keywords="apt-get;cd;cp;curl;echo;rsync;wget" />
+  </highlighting>
+  <extensionMap>
+    <mapping pattern="Dockerfile" />
+  </extensionMap>
+</filetype>
+
