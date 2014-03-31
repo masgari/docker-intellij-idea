@@ -8,7 +8,7 @@
       <option name="HEX_PREFIX" value="" />
       <option name="NUM_POSTFIXES" value="" />
     </options>
-    <keywords keywords="ADD;CMD;ENTRYPOINT;ENV;EXPOSE;ONBUILD;RUN;USER;VOLUME;WORKDIR" ignore_case="false" />
+    <keywords keywords="FROM;ADD;CMD;ENTRYPOINT;ENV;EXPOSE;ONBUILD;RUN;USER;VOLUME;WORKDIR" ignore_case="false" />
     <keywords2 keywords="add-apt-repository;addgroup;adduser;apt-get;cd;chmod;chown;cp;curl;dpkg;dpkg-divert;echo;ln;mkdir;printf;rm;rsync;sed;tar;wget" />
     <keywords3 keywords="install;update;upgrade" />
     <keywords4 keywords="+x;--disabled-password;--force-yes;--gecos;--ingroup;--quiet;-O;-R;-e;-f;-fr;-i;-q;-rf;-y" />
