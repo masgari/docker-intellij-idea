@@ -9,8 +9,8 @@
       <option name="NUM_POSTFIXES" value="" />
     </options>
     <keywords keywords="FROM;ADD;COPY;CMD;ENTRYPOINT;ENV;EXPOSE;ONBUILD;RUN;USER;VOLUME;WORKDIR;MAINTAINER" ignore_case="false" />
-    <keywords2 keywords="add-apt-repository;addgroup;adduser;apt-get;cd;mv;chmod;chown;cp;curl;dpkg;dpkg-divert;echo;ln;mkdir;printf;rm;rsync;sed;tar;wget" />
-    <keywords3 keywords="install;update;upgrade" />
+    <keywords2 keywords="add-apt-repository;addgroup;yum;adduser;apt-get;cd;mv;chmod;chown;cp;curl;dpkg;dpkg-divert;echo;ln;mkdir;printf;rm;rsync;sed;tar;wget" />
+    <keywords3 keywords="install;update;upgrade;REMOVE" />
     <keywords4 keywords="+x;--disabled-password;--force-yes;--gecos;--ingroup;--quiet;-O;-R;-e;-f;-fr;-i;-q;-rf;-y" />
   </highlighting>
   <extensionMap>
