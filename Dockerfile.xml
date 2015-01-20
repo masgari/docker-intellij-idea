@@ -9,9 +9,9 @@
       <option name="NUM_POSTFIXES" value="" />
     </options>
     <keywords keywords="FROM;ADD;COPY;CMD;ENTRYPOINT;ENV;EXPOSE;ONBUILD;RUN;USER;VOLUME;WORKDIR;MAINTAINER" ignore_case="false" />
-    <keywords2 keywords="add-apt-repository;addgroup;yum;adduser;apt-get;cd;mv;chmod;chown;cp;curl;dpkg;dpkg-divert;echo;ln;mkdir;printf;rm;rsync;sed;tar;wget" />
-    <keywords3 keywords="install;update;upgrade;remove" />
-    <keywords4 keywords="+x;--disabled-password;--force-yes;--gecos;--ingroup;--quiet;-O;-R;-e;-f;-fr;-i;-q;-rf;-y" />
+    <keywords2 keywords="add-apt-repository;apt-key;apt-add-repository;addgroup;yum;adduser;apt-get;cd;mv;chmod;chown;cp;curl;dpkg;dpkg-divert;echo;ln;mkdir;printf;rm;rsync;sed;tar;wget" />
+    <keywords3 keywords="install;update;upgrade;remove;autoremove;purge;source;build-dep;dist-upgrade;dselect-upgrade;clean;autoclean;check;changelog;download" />
+    <keywords4 keywords="-a;-b;-c;-d;-e;-f;-g;-h;-i;-j;-k;-l;-m;-n;-o;-p;-q;-r;-s;-t;-u;-v;-w;-x;-y;-z;+a;+b;+c;+d;+e;+f;+g;+h;+i;+j;+k;+l;+m;+n;+o;+p;+q;+r;+s;+t;+u;+v;+w;+x;+y;+z;+A;+B;+C;+D;+E;+F;+G;+H;+I;+J;+K;+L;+M;+N;+O;+P;+Q;+R;+S;+T;+U;+V;+W;+X;+Y;+Z;-A;-B;-C;-D;-E;-F;-G;-H;-I;-J;-K;-L;-M;-N;-O;-P;-Q;-R;-S;-T;-U;-V;-W;-X;-Y;-Z;--disabled-password;--force-yes;--gecos;--ingroup;--quiet;-fr;-rf;" />
   </highlighting>
   <extensionMap>
     <mapping pattern="Dockerfile" />
