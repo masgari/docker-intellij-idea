@@ -9,7 +9,7 @@ wget -O ~/.IntelliJIdea13/config/filetypes/Dockerfile.xml https://raw.githubuser
 
 #### OS X
 ```bash
-curl -so ~/Library/Preferences/IntelliJIdea13/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+curl --create-dirs -so ~/Library/Preferences/IntelliJIdea13/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
 
 ### IntelliJ IDEA 14
@@ -25,10 +25,10 @@ wget -O ~/.IntelliJIdea14/config/filetypes/Dockerfile.xml https://raw.githubuser
 
 #### OS X (Community Edition)
 ```bash
-curl -so ~/Library/Preferences/IdeaIC14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+curl --create-dirs -so ~/Library/Preferences/IdeaIC14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
 
 #### OS X (Ultimate Edition)
 ```bash
-curl -so ~/Library/Preferences/IntelliJIdea14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+curl --create-dirs -so ~/Library/Preferences/IntelliJIdea14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
