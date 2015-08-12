@@ -1,5 +1,5 @@
 ## Installation
-Copy `Dockerfile.xml` to `<IDEA_config_folder>/filetypes` and restart IDEA.
+Copy `Dockerfile.xml` to `<YOURIDE_config_folder>/filetypes` and restart your IDE (IDEA / PhpStorm).
 
 ### IntelliJ IDEA 13
 #### Linux
