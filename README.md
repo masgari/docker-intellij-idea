@@ -1,5 +1,5 @@
 ## Installation
-Copy `Dockerfile.xml` to `<IDEA_config_folder>/filetypes` and restart IDEA.
+Copy `Dockerfile.xml` to `<YOURIDE_config_folder>/filetypes` and restart your IDE (IDEA / PhpStorm).
 
 ### IntelliJ IDEA 13
 #### Linux
@@ -31,4 +31,9 @@ curl --create-dirs -so ~/Library/Preferences/IdeaIC14/filetypes/Dockerfile.xml h
 #### OS X (Ultimate Edition)
 ```bash
 curl --create-dirs -so ~/Library/Preferences/IntelliJIdea14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+```
+### PhpStorm 9
+#### Linux 
+```bash
+wget -O ~/.WebIde90/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
