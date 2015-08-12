@@ -32,3 +32,8 @@ curl --create-dirs -so ~/Library/Preferences/IdeaIC14/filetypes/Dockerfile.xml h
 ```bash
 curl --create-dirs -so ~/Library/Preferences/IntelliJIdea14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
+### PhpStorm 9
+#### Linux 
+```bash
+wget -O ~/.WebIde90/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+```
