@@ -37,3 +37,8 @@ curl --create-dirs -so ~/Library/Preferences/IntelliJIdea14/filetypes/Dockerfile
 ```bash
 wget -O ~/.WebIde90/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
+
+#### OS X
+```bash
+curl --create-dirs -so ~/Library/Preferences/WebIde90/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+```
