@@ -42,3 +42,6 @@ wget -O ~/.WebIde90/config/filetypes/Dockerfile.xml https://raw.githubuserconten
 ```bash
 curl --create-dirs -so ~/Library/Preferences/WebIde90/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
+### PhpStorm 10
+#### Linux
+```wget -O ~/.WebIde100/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml```
