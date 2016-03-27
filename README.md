@@ -34,4 +34,4 @@ curl --create-dirs -so ~/Library/Preferences/WebIde10/filetypes/Dockerfile.xml h
 
 #### Windows
 Download `https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml` and copy it to:
-`<User home>\.WebIdeXX\config\filetypes\` folder
+`<User home>\.WebIdeXX\config\filetypes\` folder (you may have to create the filetypes folder)
