@@ -1,27 +1,24 @@
 ## Installation
 Copy `Dockerfile.xml` to `<YOURIDE_config_folder>/filetypes` and restart your IDE (IDEA / PhpStorm).
 
-### IntelliJ IDEA 14
-#### Linux (Community Edition)
+
+#### OS X
 ```bash
-wget -O ~/.IdeaIC14/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+curl --create-dirs -so ~/Library/Preferences/<PRODUCT><VERSION>/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+```
+For *IntelliJIdea2016.2* :
+```bash
+curl --create-dirs -so ~/Library/Preferences/IntelliJIdea2016.2/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
 
-#### Linux (Ultimate Edition)
+#### Linux
 ```bash
-wget -O ~/.IntelliJIdea14/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+wget -O ~/.<PRODUCT><VERSION>/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
 
-#### OS X (Community Edition)
-```bash
-curl --create-dirs -so ~/Library/Preferences/IdeaIC14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
-```
+See https://www.jetbrains.com/help/idea/2016.1/directories-used-by-intellij-idea-to-store-settings-caches-plugins-and-logs.html
 
-#### OS X (Ultimate Edition)
-```bash
-curl --create-dirs -so ~/Library/Preferences/IntelliJIdea14/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
-```
-
+## Other products / older versions
 ### PhpStorm 10
 #### Linux
 ```wget -O ~/.WebIde10/config/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml```
