@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile
 
 #### OS X
 ```bash
-curl --create-dirs -so ~/Library/Preferences/WebIde10/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
+curl --create-dirs -so ~/Library/Preferences/WebIde100/filetypes/Dockerfile.xml https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml
 ```
 
 #### Windows
